@@ -6,7 +6,7 @@ import { getLocaleCopy } from '~src/utils/helpers';
 import { page2 } from '~data/pages';
 
 const SecondPage = ({ pageContext: { locale, name } }) => {
-  const {h1Title, text, linkLabel, linkSlug } = getLocaleCopy(
+  const {} = getLocaleCopy(
     page2,
     locale
   );
@@ -14,9 +14,7 @@ const SecondPage = ({ pageContext: { locale, name } }) => {
   return (
     <Layout name={name}>
      
-      <h1>{h1Title}</h1>
-      <p>{text}</p>
-      <Link to={linkSlug}>{linkLabel}</Link>
+     
     </Layout>
   );
 };
