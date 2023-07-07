@@ -34,7 +34,7 @@
     "redux": "^4.0.4",
     "redux-starter-kit": "^1.0.1",
     "styled-components": "^4.4.1",
-    "stylelint": "^12.0.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-config-styled-components": "^0.1.1",
